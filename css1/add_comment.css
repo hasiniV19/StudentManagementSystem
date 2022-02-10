@@ -1,0 +1,72 @@
+h1 {
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: "PT Sans",sans-serif;
+	color: white;
+	text-align: center;
+}
+html,body {
+  background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.text1{
+	text-align: center;
+}
+
+.text1 > input{
+	text-align:left;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+input[type=text]{
+  border: none;
+  padding-top: 0;
+  border-radius: 4px;
+  width: 500px;
+  height:30px;
+}
+
+.row2{
+	margin-top: 10px; 
+	margin-left: 330px;
+}
+.enter{
+    font-weight: bold;
+    font-size: 15px;
+}
+.cancel{
+    background-color: #ff4d4d;
+    font-weight: bold; font-size: 15px;
+}
+.name{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Source Sans Bold",sans-serif;
+    font-weight: bold;
+}
+.btn{
+    float: right;
+
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    background: none;
+    padding: 20px;
+    font-size: 20px;
+}

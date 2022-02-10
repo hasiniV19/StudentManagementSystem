@@ -1,0 +1,136 @@
+html,body {
+	background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+ h2{
+	text-align: left;
+	color: white;
+	align-self: center;
+	
+}
+
+.container1{
+	width: 300px;
+	margin:auto;
+	border-radius: 4px;
+
+}
+.jumbotron1 label{
+	color: yellow;
+	font-family: "Arial", serif;
+	font-size: 18px;
+}
+.login-box {
+	
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	z-index: auto;
+	
+}
+
+.login-box h1 {
+	font-family: "PT Sans",sans-serif;
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #8c8c8c;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+
+
+
+.textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+.textbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+} 
+
+.textbox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.btn {
+	width: 100%;
+	background: none;
+	border: 2px solid #8c8c8c;
+	color: white;
+	padding: 5px;
+	font-family: "Arial",serif;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 22px 0;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.buttons span{
+	font-family: "PT Sans",sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+
+.buttons i{
+	color: white;
+}
+
+.buttons {
+	margin-top: 30px;
+	padding-right: 30px;
+}
+
+.buttons label{
+	margin-right: 10px;
+}
+
+.invalid span{
+	position: absolute;
+	font-family: "Arial", serif;
+	font-size: 18px;
+  	top: 23%;
+  	left: 10px;
+  	right: 30px;
+  	width: 250px;
+ 	height: 100px;
+}
+
+.selectione span{
+	color: yellow;
+	font-family: "Arial", serif;
+	font-weight: normal;
+	font-size: 18px;
+}

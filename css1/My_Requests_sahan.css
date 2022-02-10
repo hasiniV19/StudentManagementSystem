@@ -1,0 +1,49 @@
+html,body {
+  background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size: 50px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    font-size: 25px;
+    font-family: PT Sans, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+tbody{
+    font-size: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border:4px solid #ffffff;
+    text-align: center;
+  }
+#table1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: white; 
+    color: black;
+  }
+
+.table-responsive{
+  margin: 0 20px 0 20px;
+}
+

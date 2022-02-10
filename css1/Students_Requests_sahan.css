@@ -1,0 +1,88 @@
+html,body {
+  background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fixClass{
+    background: none;
+    position: fixed;
+    text-align: center;
+    margin-top: -1%;
+
+    background-color: aliceblue;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+.table2{
+    margin:auto;
+}
+
+table {
+    margin: auto;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+
+}
+tbody{
+    font-size: 20px;
+    margin: auto;
+}
+table, th, td {
+    font-family: PT Sans, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border:4px solid #ffffff;
+    text-align: center;
+    color: black;
+  }
+.table1 th,td{
+    font-family: PT Sans, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border:4px solid #ffffff;
+    text-align: center;
+    color: white;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: white; 
+    color: black;
+  }
+.filter{
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+
+}
+
+input[type=text]{
+  font-family:"PT Sans", sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: horizontal;
+}
+
+@media screen and (max-width: 1000px) {
+   input[type=text] {
+      font-family:"PT Sans", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-width: 150px; 
+  }
+}

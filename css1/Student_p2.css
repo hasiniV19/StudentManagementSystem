@@ -1,0 +1,83 @@
+html,body {
+	background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	/*text-align: center;*/
+
+}
+
+.container1{
+	margin:auto;
+
+}
+.container2{
+	margin: auto;
+	text-align: center;
+}
+.container3{
+	margin: auto;
+	text-align: center;
+}
+
+.buttons {
+	padding-top: 120px;
+	display: flex;
+}
+input[type="radio"] {
+	-webkit-appearance:none;
+}
+
+.types {
+	height: 200px;
+	width: 200px;
+	border:6px solid #ffffff;
+	position: relative;
+	margin: auto;
+	border-radius: 10px;
+	color: #ffffff;
+	transition: 0.5s;
+}
+
+.fas {
+	font-size: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-80%);
+
+}
+
+label>span {
+	font-size: 25px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 80%);
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+
+input[type="radio"]:hover +label {
+	background-color: #000000;
+	color: white;
+	box-shadow: 0 15px 45px rgba(24,249,141,0.2);
+}
+
+.link {
+  background: none ;
+  border: none;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+  padding: 0px;
+  text-align: center;
+  padding-top: 200px;
+  cursor: pointer;
+}
+

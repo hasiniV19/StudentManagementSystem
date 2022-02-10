@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Page4</title>
+	<script src="https://kit.fontawesome.com/612d434467.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../css/Student_p3.css">
+</head>
+<body>
+	<h1>My Request</h1>
+	<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="fulltname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="ind">Index Number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="ind" name="index" placeholder="Your index number..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="types">Type of Request</label>
+      </div>
+      <div class="col-75">
+        <select id="types" name="types">
+          <option value="add/drop">Late Add/Drop Request</option>
+          <option value="repeat">Repeat Exam Request</option>
+          <option value="assignment">Extend Assignment Submission Request</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="details">Details</label>
+      </div>
+      <div class="col-75">
+        <textarea id="details" name="details" placeholder="Write the details.." style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+  		<label for="myfile">Evidence</label>
+  		</div>
+  		<div class="col-75">
+  			<input type="file" id="myfile" name="myfile">
+		</div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="comments">Comments</label>
+      </div>
+      <div class="col-75">
+        <textarea id="comments" name="comments" placeholder="" style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+
+</body>
+</html>

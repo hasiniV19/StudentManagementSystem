@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Page3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/612d434467.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css1/Student_p3.css">
+</head>
+<body>
+      <div class="jumbotron" style="background: none; color: white; font-family: PT Sans,sans-serif;">
+        <h1>New Request</h1>
+  </div>
+  <div class="jumbotron" style="background: none;">
+      <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="fulltname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="ind">Index Number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="ind" name="index" placeholder="Your index number..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="types">Type of Request</label>
+      </div>
+      <div class="col-75">
+        <select id="types" name="types">
+          <option value="add/drop">Late Add/Drop Request</option>
+          <option value="repeat">Repeat Exam Request</option>
+          <option value="assignment">Extend Assignment Submission Request</option>
+          <option value="repeat">Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="details">Details</label>
+      </div>
+      <div class="col-75">
+        <textarea id="details" name="details" placeholder="Write the details.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="myfile">Evidence</label>
+      </div>
+      <div class="col-75">
+        <input type="file" id="myfile" name="myfile">
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-75">
+        <input type="submit" value="Submit">
+      </div>
+      
+    </div>
+  </form>
+</div>
+  </div>
+  
+	
+
+
+
+</body>
+</html>

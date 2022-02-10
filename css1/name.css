@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+	background : url(../images/jwTGxo.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+.name{
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: "Source Sans Bold",sans-serif;
+	font-weight: bold;
+	
+}

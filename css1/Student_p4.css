@@ -1,0 +1,167 @@
+html,body {
+  background: url(../images/itl.cat_eye-soothing-wallpaper_1488218.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 60px;
+  font-family: "PT Sans",sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  font-family: sans-serif;
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  font-family: "PT Sans",sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+
+/* Style the container */
+.container {
+  border:6px solid #ffffff;
+  margin:auto;
+  width: 50%;
+  border-radius: 5px;
+  background-color: none;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+input[type=file] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+   margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.col-75e{
+    float: left;
+  width: 75%;
+  margin-top: 10px;
+  background-color: none;
+  border-radius: 3px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .col-25, .col-75, input[type=submit],input[type=file] {
+    width: 100%;
+    margin:auto;
+
+    padding:5px;
+
+  }
+  .col-75 label{
+  font-size: 20px;
+  font-family: "PT Sans",sans-serif;
+  color: black;
+  margin: 5px 5px 5px 5px ;
+  padding:auto;
+
+  }
+  input[type=submit]{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+  }
+
+}
+.col-25 label{
+  font-size: 25px;
+}
+
+.col-75 label{
+  font-size: 20px;
+  font-family: "PT Sans",sans-serif;
+  color: black;
+  margin: 10px 10px 10px 10px ;
+
+
+}
+
+ .col-75 span{
+  color: black;
+}
+
+.commentSec{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.date{
+  font-family: "PT Sans",sans-serif;
+  font-size: 12px;
+}
+
+.commentator{
+  font-family: "PT Sans",sans-serif;
+  font-weight: bold;
+
+}
+
+.comment{
+  font-family: "Times New Roman",serif;
+  margin-left: 15px;
+}
+
+.row{
+  margin:10px 5px 10px 5px;
+}
+.row span{
+  margin:10px 0 10px 0;
+}
+
+.error{
+  color: yellow;
+  font-size: 15px;
+}

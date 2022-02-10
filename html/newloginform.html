@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/612d434467.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css1/login.css">
+  </head>
+<body>
+
+<div class="container">
+  <div class="jumbotron" style="background: none; color: white; font-family: PT Sans,sans-serif;">
+    <h1>Student Request Management System</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+              <form method="POST" action="login.php"> <!-- changed action -->
+    <div class="jumbotron1" style="background: none;">
+        <div class="container1">
+          <h2>Login</h2>
+        <div class="invalid">
+            <label class="error">Invalid Login. Please try again</label> <!-- login error-->
+        </div>
+        <div class="textbox">
+            <i class="fas fa-user-tie" style="color: white;"></i>
+            <input type="text" placeholder="Username" name="username"> <!--changed value-->
+             <!-- if no username is entered -->
+            
+        </div>
+        <label class="error">* Username is required</label>
+
+        <div class="textbox">
+            <i class="fas fa-lock" style="color: white;"></i>
+            <input type="password" placeholder="Password" name="password"> <!--changed value-->
+        </div>
+        <label class="error">* Password is required</label> <!-- if no password is entered -->
+        <div class="buttons">
+            <input type="radio" name="selection" value="student" id="student" style="margin-left: 20px;">
+            <label for="student">
+                <i class="fas fa-user-graduate"></i>
+                <span>Student</span>
+            </label>
+
+            <input type="radio" name="selection" value="staff" id="staff" style="margin-left: 10px;">
+            <label for="staff">
+                <i class="fas fa-users-cog"></i>
+                <span>Staff</span>
+            </label>
+            <div class="selectione">
+                <label class="error">* Selection is required</label> <!-- if no selection is selected -->
+            </div>
+            
+        </div>
+
+        <input class="btn" type="submit" name="submit" value="Sign in"/> <!-- changed-->
+        </div>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
